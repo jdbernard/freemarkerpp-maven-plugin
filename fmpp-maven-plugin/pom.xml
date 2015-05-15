@@ -11,7 +11,7 @@
 	<groupId>com.googlecode.fmpp-maven-plugin</groupId>
 	<artifactId>fmpp-maven-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
-	<version>1.0</version>
+	<version>1.1</version>
 	<name>FMPP Maven Mojo</name>
 	<url>http://code.google.com/p/freemarkerpp-maven-plugin/</url>
 
@@ -24,14 +24,14 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:svn:http://freemarkerpp-maven-plugin.googlecode.com/svn/trunk/</connection>
-		<developerConnection>scm:svn:https://freemarkerpp-maven-plugin.googlecode.com/svn/trunk/</developerConnection>
-		<url>http://freemarkerpp-maven-plugin.googlecode.com/svn/trunk/</url>
+		<connection>scm:git:https://github.com/jdbernard/freemarkerpp-maven-plugin.git</connection>
+		<developerConnection>scm:git:https://github.com/jdbernard/freemarkerpp-maven-plugin.git</developerConnection>
+		<url>https://github.com/jdbernard/freemarkerpp-maven-plugin</url>
 	</scm>
 
 	<issueManagement>
-		<system>Google Code Issue Manager</system>
-		<url>http://code.google.com/p/freemarkerpp-maven-plugin/issues/list</url>
+		<system>GitHub Issues</system>
+		<url>https://github.com/jdbernard/freemarkerpp-maven-plugin/issues</url>
 	</issueManagement>
 
 	<properties>
@@ -64,7 +64,7 @@
 		<dependency>
 			<groupId>net.sourceforge.fmpp</groupId>
 			<artifactId>fmpp</artifactId>
-			<version>0.9.14</version>
+			<version>0.9.15</version>
 		</dependency>
 	</dependencies>
 
@@ -120,7 +120,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
+			<!--<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
 				<version>1.1</version>
@@ -133,7 +133,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 	<reporting>
